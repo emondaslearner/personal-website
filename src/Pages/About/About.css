@@ -1,0 +1,21 @@
+.mybg {
+}
+.data{
+    animation: animateColor 5s linear infinite;
+}
+.about-text{
+    animation: animateColor 5s linear infinite;
+}
+.bg-shadows{
+    box-shadow: 0px 0px 100px #977500 !important;
+    animation: animateColor 5s linear infinite;
+}
+@keyframes animateColor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
